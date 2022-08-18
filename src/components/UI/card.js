@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./card.module.css";
+import classes from "./Card.module.css";
 
-const card = (props) => {
+const Card = (props) => {
   return (
     <div
       className={`${classes.card} ${props.className ? props.className : ""}`}
@@ -11,4 +11,4 @@ const card = (props) => {
   );
 };
 
-export default card;
+export default Card;
